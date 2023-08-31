@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "firstName": "Tony",
+    "lastName": "Stark",
+    "pseudonym": "Iron Man",
+    "born": 1970
+  },
+  {
+    "id": 2,
+    "firstName": "Steve",
+    "lastName": "Rogers",
+    "pseudonym": "Captain America",
+    "born": 1920
+  },
+  {
+    "id": 3,
+    "firstName": "Bruce",
+    "lastName": "Banner",
+    "pseudonym": "Hulk",
+    "born": 1969
+  }
+]
