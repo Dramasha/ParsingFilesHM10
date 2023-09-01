@@ -1,4 +1,4 @@
-package testingFilesTest;
+package testing_files_test;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -6,10 +6,9 @@ import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.Pdf;
-import testingFilesTest.model.CharacterModel;
+import testing_files_test.model.CharacterModel;
 
 import java.io.InputStream;
-import java.lang.reflect.Type;
 import java.util.List;
 
 public class JsonTest {

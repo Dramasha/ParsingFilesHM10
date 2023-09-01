@@ -1,4 +1,4 @@
-package testingFilesTest.model;
+package testing_files_test.model;
 
 public class CharacterModel {
     private int id;
