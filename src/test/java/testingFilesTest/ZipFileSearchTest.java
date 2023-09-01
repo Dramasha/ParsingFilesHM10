@@ -43,8 +43,8 @@ public class ZipFileSearchTest {
     void searchTextPdfInZipFileTest() throws IOException {
         try (InputStream inputStream = getInputStreamFileInZipFile(pdfFile)) {
             PDF pdf = new PDF(inputStream);
-            String pdfText = pdf.text;
-            Assertions.assertTrue(pdf.text.contains(filesContentPDF));
+            assertThat(pdf).containsExactText(filesContentPDF);
+  //          Assertions.assertTrue(pdf.text.contains(filesContentPDF));
         }
     }
 
