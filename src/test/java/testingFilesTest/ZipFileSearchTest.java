@@ -44,7 +44,6 @@ public class ZipFileSearchTest {
         try (InputStream inputStream = getInputStreamFileInZipFile(pdfFile)) {
             PDF pdf = new PDF(inputStream);
             assertThat(pdf).containsExactText(filesContentPDF);
-  //          Assertions.assertTrue(pdf.text.contains(filesContentPDF));
         }
     }
 
